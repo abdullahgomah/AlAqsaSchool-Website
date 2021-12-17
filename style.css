@@ -1,0 +1,143 @@
+* {
+    padding:0; 
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: 'Readex Pro', sans-serif; /* New Font */
+
+}
+
+body {
+    background: #f5f6fa;
+}
+
+.container {
+    min-height: 100vh;
+
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+.logo-container {
+    display: flex;
+    justify-content: flex-start;
+    grid-gap: 10px;
+    align-items: center;
+}
+header img {
+    height: 15vh;
+}
+header div {flex: 1}
+
+header .moe-logo {
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header img {
+    padding: 5px;
+}
+
+.header {
+    background-image: url('./main-bg3.jpg');
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Main Section Style  */
+
+main {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 20px;
+    width: 90%; 
+    margin: 0px auto;
+}
+
+main h1 {
+    font-size: 40px;
+}
+
+main a {
+    display: flex;
+    text-decoration: none;
+    padding: 10px 30px; 
+    font-size: 30px;
+    grid-gap: 10px;
+    background: #1e272e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition:  all linear .2s;
+    color: #fff;
+}
+
+main a:hover {
+    border-radius: 30px;
+}
+
+main img {
+    height: 5vh;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    justify-items: center;
+    grid-gap: 10px;
+    height: 200px;
+    paddinG: 10px;
+    border-top: 2px solid #1e272e;
+    margin-top: 20px;
+}
+
+.content 
+{
+    width: 90%; 
+    margin: 0px auto;
+}
+
+.leader-speech 
+{
+    line-height: 30px;
+}
+
+.leader-speech h1 {
+    border-bottom: 2px solid #1e272e;
+    width: fit-content;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+
+footer h3 {
+    margin: 10px 0px;
+}
+.contact-row
+{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-around; 
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.contact-row img {
+    width: 30px; 
+    height: 30px;
+}
+
+.contact-row span {
+    direction: ltr;
+}
