@@ -191,11 +191,17 @@ footer h3 {
         justify-content: space-around; 
         align-items: center;
         width: 100%;
+        padding-bottom: 20px;
     }
-    .responsive_header .logos img {
-        display: block;
-        height: 15vh;
+    .responsive_header .logos .moe-logo {
+        display: inline-block;
+        height: 8vh;
     }
+
+    .school-logo {
+        transform: scale(1.5); 
+    }
+    
 
     .responsive_header .school-name {
         background: #1e272e;
